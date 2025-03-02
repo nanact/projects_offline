@@ -2,7 +2,7 @@ def check_age():
     try:
         age = int(input("Please enter your age: "))
         
-        if age < 0 or age > 120:  # Assuming a reasonable age range
+        if age < 0 or age > 120:  
             print("Error: The age entered is not valid. Please enter an age between 0 and 120.")
         else:
             if age % 2 == 0:
